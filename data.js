@@ -55,46 +55,66 @@ const COUPLES = [
         q: "Em que cidade Kitty conhece o Min Ho?",
         options: ["Tóquio", "Seul", "Busan", "Portland"],
         answer: 1
+      },
+      {
+        q: "Onde Minho confessa seus sentimentos por Kitty a primeira vez?",
+        options: ["Avião", "Dormitório", "Cafeteria", "Na escola"],
+        answer: 0
+      },
+      {
+        q: "Como Min Ho chama Kitty para provocá-la?",
+        options: ["Kitty cat", "Song", "Covey", "Novata"],
+        answer: 2
+      },
+      {
+        q: "Onde Kitty e Min Ho se conhecem pela primeira vez?",
+        options: ["Aeroporto", "Festival de boas vindas", "Refeitório", "Sala de aula"],
+        answer: 0
       }
     ]
   },
   {
-    id: "adriana-freddie",
+    id: "adriana-brayden",
     film: "Finding Her Edge",
     img: "casais/WhatsApp Image 2026-11-20 at 15.35.54.jpeg",
     people: [
       { name: "Adriana", crop: { size: "200% auto", pos: "9% 47%" } },
-      { name: "Freddie", crop: { size: "200% auto", pos: "100% 30%" } }
+      { name: "Brayden", crop: { size: "200% auto", pos: "100% 30%" } }
     ],
     questions: [
       {
-        q: "Qual esporte Adriana e Freddie praticam juntos?",
+        q: "Qual esporte Adriana e Brayden praticam juntos?",
         options: ["Balé", "Patinação artística em dupla", "Dança no gelo", "Hóquei"],
         answer: 2
       },
       {
-        q: "Além de parceiros no gelo, o que Adriana e Freddie fingem ser?",
+        q: "Além de parceiros no gelo, o que Adriana e Brayden fingem ser?",
         options: ["Irmãos", "Namorados", "Melhores amigos", "Rivais"],
         answer: 1
+      },
+      {
+        q: "Qual é o objetivo do namoro falso dos dois?",
+        options: ["Atrair patrocinadores", "Fazer ciúmes", "Ganhar seguidores", "Enganar a imprensa"],
+        answer: 0
       }
     ]
   },
   {
-    id: "belly-conrad",
-    film: "O Verão que Mudou Minha Vida",
+    id: "sean-flora",
+    film: "Beijar é a parte fácil",
     img: "casais/WhatsApp Image 2026-11-20 at 15.39.36.jpeg",
     people: [
-      { name: "Belly",  crop: { size: "260% auto", pos: "13% 25%" } },
-      { name: "Conrad", crop: { size: "260% auto", pos: "80% 25%" } }
+      { name: "Flora",  crop: { size: "260% auto", pos: "13% 25%" } },
+      { name: "Sean", crop: { size: "260% auto", pos: "80% 25%" } }
     ],
     questions: [
       {
-        q: "Onde Belly e Conrad passam todos os verões?",
+        q: "Onde Flora e Sean passam todos os verões?",
         options: ["Cousins Beach", "Malibu", "Outer Banks", "Cape Cod"],
         answer: 0
       },
       {
-        q: "Conrad é irmão de qual personagem?",
+        q: "Sean é irmão de qual personagem?",
         options: ["Steven", "Cam", "Jeremiah", "Nicole"],
         answer: 2
       }
